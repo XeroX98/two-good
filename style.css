@@ -80,10 +80,12 @@ body{
 #cursor{
   height: 180px;
   width: 180px;
-  background-color: blanchedalmond;
+  background-color: rgba(102, 0, 128, 0.548);
   border-radius: 50%;
-  position: fixed;
+  position: absolute;
   transform: translate(-50%,-50%) scale(0);
+  top: 0;
+  left: 0;
 }
 
 #page1{
